@@ -1,4 +1,4 @@
-# Kurikulum Pemrograman Web Full-Stack dengan Laravel
+# Pemrograman Web
 **Durasi**: 15 minggu (1 semester)
 
 --- 
@@ -29,10 +29,14 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa akan mampu:
 - Arsitektur MVC dan cara kerjanya di Laravel.
 - Instalasi dan pengaturan lingkungan Laravel (Composer, PHP, Local Server).
 
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-1](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-1)
+
 ### Minggu 2: Struktur Proyek Laravel & Routing
 
 - Struktur direktori Laravel.
 - Routing dasar dan pengenalan ke controller.
+
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-2](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-2)
 
 ## Minggu 3: Blade Templating Engine
 
