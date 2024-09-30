@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/*!
+ * Marp theme collections.
+ * @theme laravel
+ * @author gymie
+ *
+ * @auto-scaling true
+ * @size 4:3 960px 720px
+ * @size 16:9 1280px 720px
+ */
+
+@import "default";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+:root {
+    --background: #171923;
+    --current-line: #44475a;
+    --foreground: #f8f8f2;
+    --cyan: #8be9fd;
+    --green: #50fa7b;
+    --quote: #f8c6c4;
+    --font: #fb2d25;
+    --purple: #bd93f9;
+    --red: #ff5555;
+    --white: #fff;
+}
+
+svg[data-marp-fitting="svg"] {
+    max-height: 580px;
+}
+
+section.lead {
+    border-top: 25px solid var(--font);
+    border-bottom: 25px solid var(--font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0.5em 0 0 0;
+    color: var(--font);
+}
+
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+    font-weight: inherit;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.9em;
+}
+
+p,
+blockquote {
+    border-left: none;
+    margin: 1em 0 0 0;
+}
+
+ul>li,
+ol>li {
+    margin: 0.3em 0 0 0;
+    color: var(--cyan);
+}
+
+ul>li>p,
+ol>li>p {
+    margin: 0.6em 0 0 0;
+}
+
+blockquote {
+    margin: 1em 0 0 0;
+    padding: 0 1em;
+    position: relative;
+    color: var(--quote);
+}
+
+blockquote::after,
+blockquote::before {
+    content: "“";
+    display: block;
+    font-family: "Quicksand", serif;
+    font-weight: bold;
+    position: absolute;
+    color: var(--green);
+}
+
+blockquote::before {
+    top: 0;
+    left: 0;
+}
+
+blockquote::after {
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+blockquote>*:first-child {
+    margin-top: 0;
+}
+
+mark {
+    background: transparent;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 1em 0 0 0;
+}
+
+table th,
+table td {
+    padding: 0.2em 0.4em;
+    border-width: 1px;
+    border-style: solid;
+}
+
+section {
+    font-size: 35px;
+    font-family: "Quicksand";
+    line-height: 1.35;
+    letter-spacing: 1.25px;
+    padding: 70px;
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+section>*:first-child,
+section>header:first-child+* {
+    margin-top: 0;
+}
+
+section a,
+section mark {
+    color: var(--red);
+}
+
+section h1 strong,
+section h2 strong,
+section h3 strong,
+section h4 strong,
+section h5 strong,
+section h6 strong {
+    color: var(--current-line);
+}
+
+/* section pre > code {
+  background: var(--current-line);
+} */
+section header,
+section footer,
+section section::after,
+section blockquote::before,
+section blockquote::after {
+    color: var(--white);
+}
+
+section table th,
+section table td {
+    border-color: var(--current-line);
+}
+
+section table thead th {
+    background: var(--current-line);
+    color: var(--white);
+}
+
+section table tbody>tr:nth-child(even) td,
+section table tbody>tr:nth-child(even) th {
+    background: var(--current-line);
+}
+
+section table tbody>tr td,
+section table tbody>tr th {
+    background: black;
+}
+
+header,
+footer,
+section::after {
+    box-sizing: border-box;
+    font-size: 66%;
+    height: 70px;
+    line-height: 50px;
+    overflow: hidden;
+    padding: 10px 25px;
+    position: absolute;
+    color: var(--white);
+}
+
+header {
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+section::after {
+    right: 0;
+    bottom: 0;
+    font-size: 80%;
+}
