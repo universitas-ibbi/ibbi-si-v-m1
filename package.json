@@ -7,6 +7,7 @@
     "@marp-team/marp-cli": "^3.4.0"
   },
   "scripts": {
-    "build": "marp -I slides -o dist --theme slides/theme.css"
+    "cpi": "mkdir -p dist/images && cp slides/images/* dist/images/",
+    "build": "npm run cpi && marp -I slides -o dist --theme slides/theme.css"
   }
 }
