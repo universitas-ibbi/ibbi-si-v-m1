@@ -29,7 +29,6 @@ Developer full-stack menguasai teknologi pada kedua sisi ini, yang mencakup:
 
 - Frontend Development
 - Backend Development
-- Database Management
 
 ---
 
@@ -44,12 +43,6 @@ Bagian yang dilihat dan berinteraksi langsung dengan pengguna, menggunakan tekno
 Bagian yang mengelola logika bisnis, interaksi dengan database, dan komunikasi server, menggunakan bahasa seperti PHP, Node.js, atau Python.
 
 --- 
-
-## Database Management
-
-Memahami cara kerja database relasional seperti MySQL atau PostgreSQL, serta database non-relasional seperti MongoDB.
-  
----
 
 ## Kelebihan Full-Stack Development:
 
@@ -96,10 +89,7 @@ Menghubungkan Model dan View, menerima input dari pengguna, dan menentukan data 
 
 ## Cara Kerja MVC di Laravel
 
-- Saat pengguna mengakses URL tertentu, Laravel memanggil route yang terkait dengan URL tersebut.
-- Route mengarahkan permintaan pengguna ke Controller.
-- Controller kemudian berkomunikasi dengan Model untuk mengambil data yang diperlukan.
-- Data yang diambil dari Model dikirim ke View untuk ditampilkan kepada pengguna.
+![width:900px](images/minggu-1-mvc.png)
 
 ---
 
