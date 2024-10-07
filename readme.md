@@ -38,10 +38,15 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa akan mampu:
 
 [https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-2](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-2)
 
-## Minggu 3: Blade Templating Engine
+## Minggu 3: Routing dan Controller
 
-- Blade templating engine di Laravel.
-- Penggunaan layout, section, dan komponen dinamis di view.
+- HTTP Verbs
+- Route Definition
+- Route Parameters
+- Controllers
+- Redirects
+
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-3](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-3)
 
 ## Minggu 4: Pengenalan Database & Eloquent ORM
 
