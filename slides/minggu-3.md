@@ -14,6 +14,12 @@ marp: true
 
 ---
 
+## How the Web Works
+
+![](images/minggu3-1.png)
+
+---
+
 ## HTTP Verbs
 
 - GET
@@ -23,9 +29,23 @@ marp: true
 
 ---
 
+## Route Table
+
+|Verb|	URL| Description|
+|---|---|---|
+|GET| products| Tampilkan semua produk|
+|GET| products/create| Tampilkan form create produk|
+|POST| products| Menerima request tambah produk|
+|GET| products/{product}| Tampilkan satu produk|
+|GET| products/{product}/edit| Rubah satu produk|
+|PUT/PATCH| products/{product}| Menerima request rubah produk|
+|DELETE| products/{product}| Hapus produk|
+
+---
+
 ## Route Definition
 
-In a Laravel application, you will define your web routes in routes/web.php and your API routes in routes/api.php.
+In a Laravel application, you will define your web routes in routes/web.php.
 
 ```php
 // routes/web.php
@@ -33,20 +53,6 @@ Route::get('/', function () {
     return 'Hello, World!';
 });
 ```
-
----
-
-## Route Table
-
-|Verb|	URL| Description|
-|---|---|---|
-|GET| products| Show all products|
-|GET| products/create| Show the create product form|
-|POST| products| Accept form submission from the create product form|
-|GET| products/{product}| Show one product|
-|GET| products/{product}/edit| Edit one product|
-|PUT/PATCH| products/{product}| Accept form submission from the edit product form|
-|DELETE| products/{product}| Delete one product|
 
 ---
 
