@@ -48,10 +48,20 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa akan mampu:
 
 [https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-3](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-3)
 
-## Minggu 4: Pengenalan Database & Eloquent ORM
+## Minggu 4: Blade Templating dan Migration
 
-- Konsep database relasional dan integrasi dengan Laravel.
-- Pengenalan Eloquent ORM untuk manajemen database.
+- Pengenalan Blade Templating
+- Sintaks Dasar Blade
+- Inheritance dan Template Layout
+- Control Structures
+- Include
+- Pengenalan Migration di Laravel
+- Membuat dan Menjalankan Migration
+- Modifikasi Tabel dengan Migration
+- Pengenalan Eloquent ORM
+- Operasi Dasar Menggunakan Eloquent (CRUD)
+  
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-4](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-4)
 
 ## Minggu 5: Model, View, Controller (MVC) di Laravel
 

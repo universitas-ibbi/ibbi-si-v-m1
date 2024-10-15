@@ -1,5 +1,5 @@
 ---
-title: Pemrograman Web (Minggu 2)
+title: Routing dan Controller
 version: 1.0.0
 theme: laravel
 header: Pemrograman Web (Minggu 3)

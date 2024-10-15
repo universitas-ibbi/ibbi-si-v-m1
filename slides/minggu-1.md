@@ -1,5 +1,5 @@
 ---
-title: Pemrograman Web (Minggu 1)
+title: Pengenalan Full-Stack Development dan Laravel
 version: 1.0.0
 theme: laravel
 header: Pemrograman Web (Minggu 1)
