@@ -63,10 +63,13 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa akan mampu:
   
 [https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-4](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-4)
 
-## Minggu 5: Model, View, Controller (MVC) di Laravel
+## Minggu 5: Validation di Laravel
 
-- Konsep dan implementasi MVC di Laravel.
-- Membuat model, controller, dan view yang terhubung dengan database.
+- Pengenalan Validasi di Laravel
+- Metode Validasi pada Laravel
+- Aturan Validasi Bawaan Laravel
+- Pesan Error Validasi
+- Validasi dengan Array dan Objek Kompleks
   
 [https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-5](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-5)
 
