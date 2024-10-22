@@ -67,6 +67,8 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa akan mampu:
 
 - Konsep dan implementasi MVC di Laravel.
 - Membuat model, controller, dan view yang terhubung dengan database.
+  
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-5](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-5)
 
 ## Minggu 6: Middleware dan Manajemen Request
 
