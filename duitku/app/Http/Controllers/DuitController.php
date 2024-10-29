@@ -8,7 +8,15 @@ class DuitController extends Controller
 {
     public function index()
     {
-        return view("duit.index");
+        // ambil semua data dari tabel duit
+        // $duit = \App\Models\Duit::all();
+
+        // tampilkan view index.blade.php dengan variabel $duit
+        return view("duit.index", [
+            "duit" => \App\Models\Duit::all()
+            // "duit" => $duit
+        ]);
+        // return view("duit.index",compact('duit'));
     }
 
     public function create()
@@ -18,6 +26,13 @@ class DuitController extends Controller
 
     public function store(Request $request)
     {
+
+        $duit = new \App\Models\Duit();
+        $duit->name = $request->name;
+        $duit->type = $request->type;
+        $duit->amount = $request->amount;
+        $duit->save();
+
         return redirect()->route("duit.index")
             ->with([
                 "message" => "Berhasil Tambah Data",
