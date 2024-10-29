@@ -73,10 +73,24 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa akan mampu:
   
 [https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-5](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-5)
 
-## Minggu 6: Middleware dan Manajemen Request
+## Minggu 6: Factory, Seeder and Pagination
 
-- Pengenalan middleware di Laravel.
-- Manajemen request dan response.
+- Pengantar Factory dan Seeder di Laravel
+- Factory di Laravel
+- Seeder di Laravel
+- Pembuatan dan Penggunaan Factory
+- Penggunaan Faker untuk Data Buatan
+- Menggunakan Factory untuk Membuat Data Dummy
+- Menjalankan Factory dengan Seeder
+- Membuat Seeder di Laravel
+- Menggunakan Database Seeders untuk Pengisian Awal Database
+- Studi Kasus: Mengisi Database dengan Data Awal
+- Pengantar Pagination di Laravel
+- Pagination pada Eloquent ORM
+- Custom Pagination dengan simplePaginate
+- Menampilkan Link Pagination di View
+
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-6](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-6)
 
 ## Minggu 7: Validasi dan Formulir
 
