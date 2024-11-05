@@ -21,7 +21,9 @@ class DuitController extends Controller
 
     public function create()
     {
-        return view("duit.create");
+        return view("duit.create", [
+            "duit" => \App\Models\Duit::all()
+        ]);
     }
 
     public function store(Request $request)
