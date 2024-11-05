@@ -42,6 +42,9 @@ class DuitController extends Controller
 
     public function destroy($id)
     {
+        $duit = \App\Models\Duit::find($id);
+        $duit->delete();
+
         return redirect()->route("duit.index")
             ->with([
                 "message" => "Berhasil Hapus Data",

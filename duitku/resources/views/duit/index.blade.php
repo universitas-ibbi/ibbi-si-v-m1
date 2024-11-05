@@ -24,10 +24,11 @@
                     <div class="fw-bold"><i class="bi-arrow-down"></i> {{ $item->name }}</div>
                     <div class="d-flex justify-content-between align-items-center gap-2">
                         <span
-                            class="badge {{ $item->type === 'income' ? 'text-bg-success' : 'text-bg-danger' }} rounded-pill">{{ $item->amount }}</span>
+                            class="badge {{ $item->type === 'income' ? 'text-bg-success' : 'text-bg-danger' }} rounded-pill">{{ number_format($item->amount) }}</span>
                         <button class="btn-close btn-sm"
-                            onclick="event.preventDefault(); if(confirm('Are you sure you want to delete this item?')) document.getElementById('delete-form-2').submit()"></button>
-                        <form action="{{ route('duit.destroy', ['id' => 2]) }}" method="POST" id="delete-form-2">
+                            onclick="event.preventDefault(); if(confirm('Are you sure you want to delete this item?')) document.getElementById('delete-form-{{ $item->id }}').submit()"></button>
+                        <form action="{{ route('duit.destroy', ['id' => $item->id]) }}" method="POST"
+                            id="delete-form-{{ $item->id }}">
                             @csrf
                             @method('DELETE')
                         </form>
