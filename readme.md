@@ -97,15 +97,30 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa akan mampu:
 - Validasi data input menggunakan Laravel.
 - Pembuatan dan manajemen formulir.
 
-## Minggu 8: Relasi Antar Model & Eloquent ORM Lanjutan
+## Minggu 8: Ujian Tengah Semester
 
-- Relasi antar tabel menggunakan Eloquent ORM (One-to-One, One-to-Many, Many-to-Many).
-- Query lanjutan dengan Eloquent.
+Soal UTS Praktek Pemograman Web
+ 
+Bobot Nilai 70
+1. Clone repositori berikut:
+    https://github.com/universitas-ibbi/blogku
+2. Buat view sederhana untuk menampilkan 
+    halaman About dan Contact
+3. Buat migration untuk membuat tabel post 
+    dengan field title dan content beserta datanya.
+4. Buat controller yang dapat menampilkan data 
+    dari tabel post ke view.
+
++Bobot Nilai 30
+1. Tambahkan form untuk menginput data post.
+2. Implementasikan fitur CRUD untuk data post.
 
 ## Minggu 9: Autentikasi dan Otorisasi
 
 - Penerapan autentikasi pengguna menggunakan Laravel Auth.
 - Otorisasi dan manajemen role pengguna.
+
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-9](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-9)
 
 ## Minggu 10: API dan AJAX di Laravel
 
