@@ -122,10 +122,9 @@ Bobot Nilai 70
 
 [https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-9](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-9)
 
-## Minggu 10: API dan AJAX di Laravel
+## Minggu 10: Relationships
 
-- Membuat API dengan Laravel.
-- Penggunaan AJAX untuk komunikasi asinkron di front-end.
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-10](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-10)
 
 ## Minggu 11: Pengenalan Vue.js di Laravel
 
