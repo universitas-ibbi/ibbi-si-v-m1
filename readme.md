@@ -126,27 +126,19 @@ Bobot Nilai 70
 
 [https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-10](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-10)
 
-## Minggu 11: Pengenalan Vue.js di Laravel
+## Minggu 11: 
 
-- Integrasi Vue.js dengan Laravel untuk front-end interaktif.
-- Membuat komponen Vue.js dan menghubungkannya ke API Laravel.
 
-## Minggu 12: Pengelolaan File & Upload
+## Minggu 12: 
 
-- Pengelolaan file dan direktori di Laravel.
-- Membuat fitur upload file dan manajemen penyimpanan.
 
-## Minggu 13: Optimasi Aplikasi & Keamanan
+## Minggu 13: 
 
-- Optimasi performa aplikasi Laravel.
-- Penerapan teknik keamanan (XSS, CSRF, SQL Injection).
-
-## Minggu 14: Deployment Aplikasi Laravel
-
-- Langkah-langkah deployment aplikasi Laravel ke server.
-- Penggunaan layanan cloud untuk deployment.
+## Minggu 14: 
 
 ## Minggu 15: Ujian Akhir & Presentasi Proyek
 
 - Presentasi proyek akhir.
 - Review dan evaluasi kemampuan pengembangan aplikasi full-stack.
+
+[Kriteria Project Akhir Pemograman Web dengan Laravel](./uas/readme.md)
