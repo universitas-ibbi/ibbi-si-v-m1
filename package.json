@@ -1,0 +1,13 @@
+{
+  "name": "ibbi-si-v-m1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  },
+  "scripts": {
+    "cpi": "mkdir -p dist/images && cp slides/images/* dist/images/",
+    "build": "npm run cpi && marp -I slides -o dist --theme slides/theme.css"
+  }
+}
