@@ -132,11 +132,9 @@ Bobot Nilai 70
 ## Minggu 12: 
 
 
-## Minggu 13: 
+## Minggu 13: Notifications
 
-Notifications
-
-[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-11](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-11)
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-13](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-13)
 
 ## Minggu 14: 
 
