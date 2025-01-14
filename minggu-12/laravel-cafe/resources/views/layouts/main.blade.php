@@ -29,8 +29,8 @@
 
     <section class="text-center bg-dark text-white py-5 h-75" style="background: url('images/cafe.jpeg') no-repeat center center/cover;">
         <div class="d-flex flex-column justify-content-center align-items-center h-100">
-            <h2>Selamat Datang di Cafe Delight</h2>
-            <p>Tempat yang sempurna untuk menikmati kopi dan makanan lezat.</p>
+            <h2>{{ $setting->title }}</h2>
+            <p>{{ $setting->subtitle }}</p>
             <a href="#menu" class="btn btn-primary">Lihat Menu</a>
         </div>
     </section>
