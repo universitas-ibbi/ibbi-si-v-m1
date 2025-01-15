@@ -15,7 +15,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::view("/about","about",[
     "setting" => \App\Models\Setting::first()
 ])->name("about");
-Route::view("/contact","contact")->name("contact");
+Route::view("/contact","contact",[
+    "setting" => \App\Models\Setting::first()
+])->name("contact");
 
 
 Route::middleware("auth")->group(function(){
@@ -24,10 +26,11 @@ Route::middleware("auth")->group(function(){
 
     Route::post("/menu/simpan",[App\Http\Controllers\MenuController::class,"simpan"])
         ->name("menu.simpan");
+
+    Route::get("/setting",[App\Http\Controllers\SettingController::class,"index"])
+        ->name("setting.index");
+    Route::post("/setting",[App\Http\Controllers\SettingController::class,"simpanSetting"])
+        ->name("setting.simpan");
 });
 
 
-Route::get("/setting",[App\Http\Controllers\SettingController::class,"index"])
-    ->name("setting.index");
-Route::post("/setting",[App\Http\Controllers\SettingController::class,"simpanSetting"])
-    ->name("setting.simpan");
