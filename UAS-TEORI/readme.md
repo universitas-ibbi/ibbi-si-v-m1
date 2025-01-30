@@ -1,0 +1,21 @@
+- Jelaskan apa itu framework Laravel dan bagaimana Laravel membantu pengembang dalam membangun aplikasi full-stack!
+- Apa perbedaan antara Laravel dengan framework PHP lainnya? Sebutkan keunggulan utama Laravel!
+- Jelaskan konsep arsitektur MVC (Model-View-Controller) dan bagaimana implementasinya dalam Laravel!
+- Sebutkan dan jelaskan komponen utama dari struktur direktori proyek Laravel!
+- Apa itu routing dalam Laravel? Berikan contoh kode sederhana untuk mendefinisikan rute GET dan POST!
+- Jelaskan peran controller dalam Laravel, dan bagaimana cara membuat serta menghubungkan controller dengan rute!
+- Apa itu Blade Templating? Sebutkan tiga fitur utama Blade yang membuatnya efisien untuk pengembangan front-end!
+- Berikan contoh penggunaan direktif Blade seperti `@if`, `@foreach`, dan `@include` dalam template!
+- Jelaskan konsep migrasi di Laravel dan langkah-langkah untuk membuat tabel baru menggunakan migrasi!
+- Apa fungsi validasi dalam Laravel, dan bagaimana cara menerapkannya pada formulir dengan contoh kode sederhana?
+- Jelaskan fungsi factory dan seeder dalam Laravel, dan bagaimana keduanya membantu dalam proses pengujian aplikasi!
+- Apa itu pagination dalam Laravel? Berikan contoh implementasi untuk menampilkan data dengan pagination!
+- Jelaskan konsep autentikasi di Laravel. Apa saja komponen yang terlibat dalam sistem autentikasi Laravel?
+- Apa perbedaan antara autentikasi dan otorisasi di Laravel? Jelaskan dengan contoh penggunaan middleware!
+- Jelaskan konsep hubungan (*relationships*) di Laravel, dan berikan contoh implementasi *one-to-many* menggunakan Eloquent ORM!
+- Bagaimana cara membuat dan mengakses API di Laravel? Berikan contoh implementasi endpoint sederhana!
+- Jelaskan bagaimana front-end dapat berkomunikasi dengan API Laravel menggunakan AJAX atau Vue.js!
+- Apa itu notifikasi di Laravel? Berikan contoh pengiriman notifikasi melalui email atau database!
+- Sebutkan langkah-langkah untuk melakukan deployment aplikasi Laravel ke server produksi secara tradisional atau menggunakan container!
+- Apa saja tantangan yang biasanya dihadapi saat mengembangkan aplikasi dengan Laravel, dan bagaimana cara mengatasinya?
+- Pelajari contoh fungsi dari kode yang pernah kita pelajari dalam project perkuliahan kita.

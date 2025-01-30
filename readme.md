@@ -63,57 +63,88 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa akan mampu:
   
 [https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-4](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-4)
 
-## Minggu 5: Model, View, Controller (MVC) di Laravel
+## Minggu 5: Validation di Laravel
 
-- Konsep dan implementasi MVC di Laravel.
-- Membuat model, controller, dan view yang terhubung dengan database.
+- Pengenalan Validasi di Laravel
+- Metode Validasi pada Laravel
+- Aturan Validasi Bawaan Laravel
+- Pesan Error Validasi
+- Validasi dengan Array dan Objek Kompleks
+  
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-5](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-5)
 
-## Minggu 6: Middleware dan Manajemen Request
+## Minggu 6: Factory, Seeder and Pagination
 
-- Pengenalan middleware di Laravel.
-- Manajemen request dan response.
+- Pengantar Factory dan Seeder di Laravel
+- Factory di Laravel
+- Seeder di Laravel
+- Pembuatan dan Penggunaan Factory
+- Penggunaan Faker untuk Data Buatan
+- Menggunakan Factory untuk Membuat Data Dummy
+- Menjalankan Factory dengan Seeder
+- Membuat Seeder di Laravel
+- Menggunakan Database Seeders untuk Pengisian Awal Database
+- Studi Kasus: Mengisi Database dengan Data Awal
+- Pengantar Pagination di Laravel
+- Pagination pada Eloquent ORM
+- Custom Pagination dengan simplePaginate
+- Menampilkan Link Pagination di View
+
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-6](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-6)
 
 ## Minggu 7: Validasi dan Formulir
 
 - Validasi data input menggunakan Laravel.
 - Pembuatan dan manajemen formulir.
 
-## Minggu 8: Relasi Antar Model & Eloquent ORM Lanjutan
+## Minggu 8: Ujian Tengah Semester
 
-- Relasi antar tabel menggunakan Eloquent ORM (One-to-One, One-to-Many, Many-to-Many).
-- Query lanjutan dengan Eloquent.
+Soal UTS Praktek Pemograman Web
+ 
+Bobot Nilai 70
+1. Clone repositori berikut:
+    https://github.com/universitas-ibbi/blogku
+2. Buat view sederhana untuk menampilkan 
+    halaman About dan Contact
+3. Buat migration untuk membuat tabel post 
+    dengan field title dan content beserta datanya.
+4. Buat controller yang dapat menampilkan data 
+    dari tabel post ke view.
+
++Bobot Nilai 30
+1. Tambahkan form untuk menginput data post.
+2. Implementasikan fitur CRUD untuk data post.
 
 ## Minggu 9: Autentikasi dan Otorisasi
 
 - Penerapan autentikasi pengguna menggunakan Laravel Auth.
 - Otorisasi dan manajemen role pengguna.
 
-## Minggu 10: API dan AJAX di Laravel
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-9](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-9)
 
-- Membuat API dengan Laravel.
-- Penggunaan AJAX untuk komunikasi asinkron di front-end.
+## Minggu 10: Relationships
 
-## Minggu 11: Pengenalan Vue.js di Laravel
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-10](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-10)
 
-- Integrasi Vue.js dengan Laravel untuk front-end interaktif.
-- Membuat komponen Vue.js dan menghubungkannya ke API Laravel.
+## Minggu 11: 
 
-## Minggu 12: Pengelolaan File & Upload
 
-- Pengelolaan file dan direktori di Laravel.
-- Membuat fitur upload file dan manajemen penyimpanan.
+## Minggu 12: 
 
-## Minggu 13: Optimasi Aplikasi & Keamanan
 
-- Optimasi performa aplikasi Laravel.
-- Penerapan teknik keamanan (XSS, CSRF, SQL Injection).
+## Minggu 13: Notifications
 
-## Minggu 14: Deployment Aplikasi Laravel
+[https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-13](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-13)
 
-- Langkah-langkah deployment aplikasi Laravel ke server.
-- Penggunaan layanan cloud untuk deployment.
+## Minggu 14: 
 
 ## Minggu 15: Ujian Akhir & Presentasi Proyek
 
 - Presentasi proyek akhir.
 - Review dan evaluasi kemampuan pengembangan aplikasi full-stack.
+
+[Kriteria Project Akhir Pemograman Web dengan Laravel](./uas/readme.md)
+
+## SOAL UAS TEORI
+
+[Link Soal UAS](./UAS-TEORI/readme.md)
